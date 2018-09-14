@@ -15,7 +15,9 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path
+from app.views import Time
 
 urlpatterns = [
     path('admin/', admin.site.urls),
+    path('', Time.as_view(), name='add-exchange-rate'),
 ]
