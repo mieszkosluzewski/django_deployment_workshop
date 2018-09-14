@@ -25,7 +25,8 @@ SECRET_KEY = 'f4ks#cct!yh31(u12p@6oc298l@ixc^_^y6a((@&=%qw8ncbzs'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['quiet-garden-55346.herokuapp.com.herokuapp.com','127.0.0.1']
+
 
 
 # Application definition
